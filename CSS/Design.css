@@ -1,0 +1,532 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Black.ttf);
+}
+
+body {
+  background-color: black;
+  font-family: sans-serif;
+  font-color: white; !important
+}
+
+p {
+  font-size: 23px; /*instead of 30*/
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 40px; /*instead of 50*/
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.Proj1Content {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.8;
+  font-family: Montserrat;
+}
+
+.AboutName {
+  font-size: 60px;
+  margin: auto;
+  line-height: 1.8;
+  font-family: Montserrat;
+}
+
+.AboutTitle {
+  font-size: 30px;
+  margin: auto;
+  line-height: 1.8;
+  font-family: Montserrat;
+}
+
+/*non-screen images*/
+.Proj1Img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+}
+
+.PhotoMe{
+  height: 260px;
+  width: 260px
+}
+
+.OldSite-GetInvolvedImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+h1 {
+	font-size: 20pt;
+	position: fixed;
+	top: 5%
+}
+
+.header{
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: black;
+   padding: 40px 656px;
+   color: white;
+   z-index: 9;
+}
+
+nav #MainNav{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	position: fixed;
+}
+
+nav #MainNav a{
+	flex-grow: 1;
+	text-decoration: none;
+	color: white;
+}
+
+nav #MainNav li{
+	text-align: left;
+	font-size: 20px;
+}
+
+.NavItem0{
+  transition: 1s ease;
+	position: fixed;
+	left: 20px;
+  top: 20px;
+}
+
+.NavItem0:hover {
+  opacity: 0.2;
+}
+
+.NavItem1{
+  transition: .5s ease;
+	position: fixed;
+	right: 430px;
+}
+
+.NavItem1:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem2{
+  transition: .5s ease;
+	position: fixed;
+	right: 200px;
+}
+
+.NavItem2:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem3{
+  transition: .5s ease;
+  position: fixed;
+  right: 100px;
+}
+
+.NavItem3:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem4{
+  transition: .5s ease;
+	position: fixed;
+	right: 15px;
+}
+
+.NavItem4:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.parent {
+  position: relative;
+  margin-top: 10px;
+}
+
+#proj1 {
+	position: absolute;
+	top: 100px;
+	right: 100px;	
+	list-style: none;
+  width: 550px;
+}
+
+form {
+	position: absolute;
+	top: 120px;
+}
+
+#contactBio {
+	font-size: 18px;
+}
+
+.Heading {
+	font-size: 33px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contactHeading {
+  font-size: 45px;
+  color: #d3d3d3;
+}
+
+.control {
+  max-width: 500px;
+  margin: auto;
+  float: middle;
+  font-size: 19px;
+  margin-right: 100px;
+  color: #d3d3d3;
+  grid-column: 2/4;
+}
+
+.personal {
+  float: left;
+  margin-left: 150px;
+  height: 600px; 
+  width: 500px;
+  grid-column: span 2/7;
+}
+
+.headSize {
+	font-size: 40px;
+}
+
+.screenImg{
+  height: 450px; 
+  width: 80% ;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.FSAscreenImg {
+  width:800px; 
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;"
+}
+
+.CoPscreenImg{
+  height: 300px; 
+  width: 500px;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;"
+}
+
+.UStartscreenImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height:600px;
+}
+
+.CoasterVRscreenImg {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  height: 450px; 
+  width: 700px;
+}
+
+.WebVRscreenImg {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  height: 350px; 
+  width: 700px;
+}
+
+.ShootingscreenImg {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  height: 400px; 
+  width: 700px;
+}
+
+.FlyBirdscreenImg {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  height: 450px; 
+  width: 700px;
+}
+
+
+/*******************************FOOTER**************************/
+.footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   color: rgba(188,188,188, 0.4);
+   width: 100%;
+   bottom: 0px;
+   font-family: Montserrat;
+}
+
+
+/*******************FOOTER ICONS FADING OUT*********************/
+.transparency{
+  transition: .3s ease;
+}
+
+.transparency:hover {
+  opacity: 0.5;
+}
+
+
+
+/******IMAGES CHOICES OUTLINE (HAVING THEM CENTERED UNDER EACH OTHER)*****/
+.row {
+  margin: 35px -125px;
+}
+
+.row,    /* Add padding BETWEEN each column */
+.row > .column {
+  padding: 70px;
+}
+
+.column {  /* Create equal columns that floats next to each other */
+  /*float: left;*/
+  margin-left: 500px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+.content {                  
+  background-color: black;
+  padding: 10px;
+}
+
+
+/***************IMAGE CHOICES FADE OUTS - WORDS FADE INS***************/
+
+.image {
+  opacity: 1;
+  display: block;
+  /*height: auto;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+  width: 80%
+}
+
+.FSAmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 350px;*/ /*if i get rid of animation then I'll use this*/
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.NYUCoPmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 880px;*/ /*if i get rid of animation then I'll use this*/
+  top: 920px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.UStartmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 1430px;*/ /*if i get rid of animation then I'll use this*/
+  top: 1420px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.CoasterVRmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 370px;*/ /*if i get rid of animation then I'll use this*/
+  top: 350px;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.WebVRmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 860px;*/ /*if i get rid of animation then I'll use this*/
+  top: 750px;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ShootingGamemiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 260px;*/ /*if i get rid of animation then I'll use this*/
+  top: 310px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.FlyBirdmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 760px;*/ /*if i get rid of animation then I'll use this*/
+  top: 790px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.LinkedInmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  top: 1900px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content:hover .image {
+  opacity: 0.2;
+}
+
+.content:hover .FSAmiddle {
+  opacity: 1;
+}
+
+.content:hover .NYUCoPmiddle {
+  opacity: 1;
+}
+
+.content:hover .UStartmiddle {
+  opacity: 1;
+}
+
+.content:hover .CoasterVRmiddle {
+  opacity: 1;
+}
+
+.content:hover .WebVRmiddle {
+  opacity: 1;
+}
+
+.content:hover .ShootingGamemiddle {
+  opacity: 1;
+}
+
+.content:hover .FlyBirdmiddle {
+  opacity: 1;
+}
+
+.content:hover .LinkedInmiddle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;  
+  color: white;
+  font-size: 23px;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+
+
+
+/************************LOGO ANIMATION (flip)***********************/
+
+.NavItem0 {
+  -webkit-animation: rotate-diagonal-1 0.4s linear both;
+          animation: rotate-diagonal-1 0.4s linear both;
+}
+
+@-webkit-keyframes rotate-diagonal-1 {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+@keyframes rotate-diagonal-1 {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+
+
+/************************CONTENT ANIMATION (Slide-In)***********************/
+/*.content {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(400px);
+            transform: translateX(400px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-930px);
+            transform: translateX(-930px);
+  }
+}*/
+
+

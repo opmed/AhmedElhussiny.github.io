@@ -1,0 +1,275 @@
+<style type="text/css">
+ @media only screen and (min-width: 481px) and (max-width: 960px) {
+    body {
+      background-color: blue;
+    }
+.header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   background-color: black;
+   padding: 40px 656px;
+   color: white;
+   z-index: 9;
+}
+
+nav #MainNav {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  position: fixed;
+}
+
+nav #MainNav a{
+  flex-grow: 1;
+  text-decoration: none;
+  color: white;
+}
+
+nav #MainNav li{
+  text-align: left;
+  font-size: 20px;
+}
+.NavItem0{
+  transition: 1s ease;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.NavItem0:hover {
+  opacity: 0.2;
+}
+
+.NavItem1{
+  transition: .5s ease;
+  position: fixed;
+  right: 430px;
+}
+
+.NavItem1:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem2{
+  transition: .5s ease;
+  position: fixed;
+  right: 200px;
+}
+
+.NavItem2:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem3{
+  transition: .5s ease;
+  position: fixed;
+  right: 100px;
+}
+
+.NavItem3:hover {
+  color: gray;
+  opacity: 0.6;
+}
+
+.NavItem4{
+  transition: .5s ease;
+  position: fixed;
+  right: 15px;
+}
+
+.NavItem4:hover {
+  color: gray;
+  opacity: 0.6;
+}
+.row {
+  margin: 35px -125px;
+}
+
+.row,    /* Add padding BETWEEN each column */
+.row > .column {
+  padding: 70px;
+}
+
+.column {  /* Create four equal columns that floats next to each other */
+  /*float: right;*/
+  margin-left: 1250px;
+  width: 700px;
+  /*margin: 0 auto;*/
+}
+.content {                  
+  background-color: black;
+  padding: 10px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  /*height: auto;*/
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.FSAmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 350px;*/ /*if i get rid of animation then I'll use this*/
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.NYUCoPmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 880px;*/ /*if i get rid of animation then I'll use this*/
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.UStartmiddle {
+  transition: .4s ease;
+  opacity: 0;
+  position: absolute;
+  /*top: 1430px;*/ /*if i get rid of animation then I'll use this*/
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content:hover .image {
+  opacity: 0.2;
+}
+
+.content:hover .FSAmiddle {
+  opacity: 1;
+}
+
+.content:hover .NYUCoPmiddle {
+  opacity: 1;
+}
+
+.content:hover .UStartmiddle {
+  opacity: 1;
+}
+.text {
+  background-color: transparent;  
+  color: white;
+  font-size: 23px;
+  padding: 16px 32px;
+}
+.NavItem0 {
+  -webkit-animation: rotate-diagonal-1 0.4s linear both;
+          animation: rotate-diagonal-1 0.4s linear both;
+}
+
+@-webkit-keyframes rotate-diagonal-1 {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+@keyframes rotate-diagonal-1 {
+  0% {
+    -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+  }
+}
+
+
+/************************CONTENT ANIMATION (Slide-In)***********************/
+.content {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(400px);
+            transform: translateX(400px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1330px);
+            transform: translateX(-1330px);
+  }
+}
+}
+
+
+/*************************************MOBILE***********************************/
+@media only screen and (max-width: 550px) {
+body {
+      background-color: yellow;
+}
+
+.NavItem0{
+  transition: 1s ease;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.NavItem1{
+  transition: .5s ease;
+  position: fixed;
+  right: 430px;
+}
+
+.NavItem2{
+  transition: .5s ease;
+  position: fixed;
+  right: 200px;
+}
+
+.NavItem3{
+  transition: .5s ease;
+  position: fixed;
+  right: 100px;
+}
+.NavItem4{
+  transition: .5s ease;
+  position: fixed;
+  right: 15px;
+  font-size: 100px;
+}
+
+.content {                  
+  background-color: black;
+  padding: 10px;
+}
+}
+</style>
